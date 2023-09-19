@@ -1,0 +1,63 @@
+/* CSS RESET */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+/* CSS For BODY */
+body {
+  overflow: hidden;
+}
+
+/* CSS For HTML*/
+html {
+  overflow-x: hidden;
+  font-size: 62.5%;
+}
+
+/* Media Query Starts */
+/* for 1399px */
+@media only screen and (max-width: 1399px) {
+  html {
+    font-size: 60.5%;
+  }
+}
+/* for 1199px */
+@media only screen and (max-width: 1199px) {
+  html {
+    font-size: 58.5%;
+  }
+}
+/* for 999px */
+@media only screen and (max-width: 999px) {
+  html {
+    font-size: 56.5%;
+  }
+}
+/* for 799px */
+@media only screen and (max-width: 799px) {
+  html {
+    font-size: 54.5%;
+  }
+}
+/* for 599px */
+@media only screen and (max-width: 599px) {
+  html {
+    font-size: 52.5%;
+  }
+}
+/* for 399px */
+@media only screen and (max-width: 399px) {
+  html {
+    font-size: 50.5%;
+  }
+}
+/* for 299px */
+@media only screen and (max-width: 299px) {
+  html {
+    font-size: 45.5%;
+  }
+}
+/* Media Query Ends */
