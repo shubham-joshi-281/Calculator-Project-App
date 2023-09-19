@@ -1,0 +1,137 @@
+.cal-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  background-color: #c1c1c1;
+}
+.cal {
+  width: 25%;
+  margin: 0 auto;
+  border: 6px double rgb(255, 187, 0);
+  border-radius: 2rem;
+  padding: 1rem 0 2rem;
+  background-color: #000000;
+  box-shadow: 10px 10px 40px #ffffff;
+}
+.cal > h1 {
+  font-size: 3rem;
+  color: rgb(101, 247, 65);
+  text-transform: capitalize;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.cal > h2 {
+  border: 2px solid gray;
+  height: 8rem;
+  font-size: 2rem;
+  line-height: 8rem;
+  font-weight: 900;
+  width: 95%;
+  color: red;
+  margin: 1rem auto;
+  background-color: #fff;
+  border-radius: 1rem;
+  box-shadow: 1px 1px 10px rgb(255, 255, 255);
+  padding-right: 1rem;
+  text-align: right;
+}
+button:focus {
+  background-color: #000000;
+  color: #fff;
+  border: 2px solid #fff;
+}
+.row-container {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+button {
+  border-radius: 50%;
+  height: 6rem;
+  margin: 1rem 1rem;
+  background-color: rgb(255, 255, 255);
+  text-shadow: 1px 1px rgb(250, 56, 56);
+  font-size: 2rem;
+  border: 2px solid #000000;
+  outline: none;
+  width: 6rem;
+  box-shadow: 1px 1px 7px #fff;
+}
+.last-row {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cBtn,
+.dBtn {
+  width: 40%;
+  border-radius: 1rem;
+  height: 4rem;
+}
+
+@media only screen and (max-width: 799px) {
+  .cal-container {
+    width: 100%;
+  }
+  .cal {
+    width: 50%;
+  }
+  .cal > h2 {
+    width: 90%;
+  }
+  .row-container {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 599px) {
+  .cal-container {
+    width: 100%;
+  }
+  .cal {
+    width: 65%;
+  }
+  .cal > h2 {
+    width: 90%;
+  }
+  .row-container {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 499px) {
+  .cal-container {
+    width: 100%;
+  }
+  .cal {
+    width: 80%;
+  }
+  .cal > h2 {
+    width: 90%;
+  }
+  .row-container {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .cal-container {
+    width: 100%;
+  }
+  .cal {
+    width: 90%;
+  }
+  .cal > h2 {
+    width: 90%;
+  }
+  .row-container {
+    width: 90%;
+  }
+}
